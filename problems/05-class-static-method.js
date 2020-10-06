@@ -60,6 +60,7 @@ class MMS {
     this.text = text;
     this.mimeType = mimeType;
   }
+
   static getMessagesByMIMEType(messages, mimeType){
     return messages.filter(msg => msg.mimeType === mimeType);
   }
